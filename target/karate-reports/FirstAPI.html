@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <title>FirstAPI</title>  
+  </head>
+  <body>   
+    <div id="root-container">
+      <div id="leftnav">
+                
+        <div>
+  <div class="nav-logo">
+    <a href="karate-summary.html">
+      <img src="karate-logo.svg" alt="Karate"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">1</div>
+      <div id="nav-fail" class="bg-danger">0</div>
+    </div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>         
+  <div id="nav-date">
+    <div>2024-06-25 12:01:40 pm</div>
+  </div>        
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item passed">
+            <a href="#[2:29]"><span>[2:29]</span> <span>using dummy api validate all the data of the response</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">FirstAPI.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">Triggering first API through karate</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[2:29]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                <a class="badge badge-primary" href="karate-tags.html">api-all-data</a>
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[2:29]</span>
+                <span class="scenario-name">using dummy api validate all the data of the response</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>2387</span>
+            </div>
+          </div>
+          
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.30">
+      <div class="step-ref passed">30</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url &#39;https://dummy.restapiexample.com/api/v1/employees&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.31">
+      <div class="step-ref passed">31</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method get</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2272</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.31">12:01:38.458 request:
+1 &gt; GET https://dummy.restapiexample.com/api/v1/employees
+1 &gt; Host: dummy.restapiexample.com
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+12:01:40.060 response time in milliseconds: 1519
+1 &lt; 200
+1 &lt; Date: Tue, 25 Jun 2024 06:31:40 GMT
+1 &lt; Server: nginx/1.21.6
+1 &lt; Content-Type: application/json
+1 &lt; Cache-Control: no-cache, private
+1 &lt; Cache-Control: max-age=86400
+1 &lt; X-RateLimit-Limit: 60
+1 &lt; X-RateLimit-Remaining: 58
+1 &lt; Expires: Wed, 26 Jun 2024 06:31:40 GMT
+1 &lt; Vary: Accept-Encoding
+1 &lt; X-Endurance-Cache-Level: 2
+1 &lt; X-nginx-cache: WordPress
+1 &lt; X-Server-Cache: true
+1 &lt; X-Proxy-Cache: MISS
+{&quot;data&quot;:[{&quot;profile_image&quot;:&quot;&quot;,&quot;employee_name&quot;:&quot;Tiger Nixon&quot;,&quot;employee_salary&quot;:320800,&quot;id&quot;:1,&quot;employee_age&quot;:61},{&quot;profile_image&quot;:&quot;&quot;,&quot;employee_name&quot;:&quot;Garrett Winters&quot;,&quot;employee_salary&quot;:170750,&quot;id&quot;:2,&quot;employee_age&quot;:63},{&quot;profile_image&quot;:&quot;&quot;,&quot;employee_name&quot;:&quot;Ashton Cox&quot;,&quot;employee_salary&quot;:86000,&quot;id&quot;:3,&quot;employee_age&quot;:66},{&quot;profile_image&quot;:&quot;&quot;,&quot;employee_name&quot;:&quot;Cedric Kelly&quot;,&quot;employee_salary&quot;:433060,&quot;id&quot;:4,&quot;employee_age&quot;:22},{&quot;profile_image&quot;:&quot;&quot;,&quot;employee_name&quot;:&quot;Airi Satou&quot;,&quot;employee_salary&quot;:162700,&quot;id&quot;:5,&quot;employee_age&quot;:33},{&quot;profile_image&quot;:&quot;&quot;,&quot;employee_name&quot;:&quot;Brielle Williamson&quot;,&quot;employee_salary&quot;:372000,&quot;id&quot;:6,&quot;employee_age&quot;:61},{&quot;profile_image&quot;:&quot;&quot;,&quot;employee_name&quot;:&quot;Herrod Chandler&quot;,&quot;employee_salary&quot;:137500,&quot;id&quot;:7,&quot;employee_age&quot;:59},{&quot;profile_image&quot;:&quot;&quot;,&quot;employee_name&quot;:&quot;Rhona Davidson&quot;,&quot;employee_salary&quot;:327900,&quot;id&quot;:8,&quot;employee_age&quot;:55},{&quot;profile_image&quot;:&quot;&quot;,&quot;employee_name&quot;:&quot;Colleen Hurst&quot;,&quot;employee_salary&quot;:205500,&quot;id&quot;:9,&quot;employee_age&quot;:39},{&quot;profile_image&quot;:&quot;&quot;,&quot;employee_name&quot;:&quot;Sonya Frost&quot;,&quot;employee_salary&quot;:103600,&quot;id&quot;:10,&quot;employee_age&quot;:23},{&quot;profile_image&quot;:&quot;&quot;,&quot;employee_name&quot;:&quot;Jena Gaines&quot;,&quot;employee_salary&quot;:90560,&quot;id&quot;:11,&quot;employee_age&quot;:30},{&quot;profile_image&quot;:&quot;&quot;,&quot;employee_name&quot;:&quot;Quinn Flynn&quot;,&quot;employee_salary&quot;:342000,&quot;id&quot;:12,&quot;employee_age&quot;:22},{&quot;profile_image&quot;:&quot;&quot;,&quot;employee_name&quot;:&quot;Charde Marshall&quot;,&quot;employee_salary&quot;:470600,&quot;id&quot;:13,&quot;employee_age&quot;:36},{&quot;profile_image&quot;:&quot;&quot;,&quot;employee_name&quot;:&quot;Haley Kennedy&quot;,&quot;employee_salary&quot;:313500,&quot;id&quot;:14,&quot;employee_age&quot;:43},{&quot;profile_image&quot;:&quot;&quot;,&quot;employee_name&quot;:&quot;Tatyana Fitzpatrick&quot;,&quot;employee_salary&quot;:385750,&quot;id&quot;:15,&quot;employee_age&quot;:19},{&quot;profile_image&quot;:&quot;&quot;,&quot;employee_name&quot;:&quot;Michael Silva&quot;,&quot;employee_salary&quot;:198500,&quot;id&quot;:16,&quot;employee_age&quot;:66},{&quot;profile_image&quot;:&quot;&quot;,&quot;employee_name&quot;:&quot;Paul Byrd&quot;,&quot;employee_salary&quot;:725000,&quot;id&quot;:17,&quot;employee_age&quot;:64},{&quot;profile_image&quot;:&quot;&quot;,&quot;employee_name&quot;:&quot;Gloria Little&quot;,&quot;employee_salary&quot;:237500,&quot;id&quot;:18,&quot;employee_age&quot;:59},{&quot;profile_image&quot;:&quot;&quot;,&quot;employee_name&quot;:&quot;Bradley Greer&quot;,&quot;employee_salary&quot;:132000,&quot;id&quot;:19,&quot;employee_age&quot;:41},{&quot;profile_image&quot;:&quot;&quot;,&quot;employee_name&quot;:&quot;Dai Rios&quot;,&quot;employee_salary&quot;:217500,&quot;id&quot;:20,&quot;employee_age&quot;:35},{&quot;profile_image&quot;:&quot;&quot;,&quot;employee_name&quot;:&quot;Jenette Caldwell&quot;,&quot;employee_salary&quot;:345000,&quot;id&quot;:21,&quot;employee_age&quot;:30},{&quot;profile_image&quot;:&quot;&quot;,&quot;employee_name&quot;:&quot;Yuri Berry&quot;,&quot;employee_salary&quot;:675000,&quot;id&quot;:22,&quot;employee_age&quot;:40},{&quot;profile_image&quot;:&quot;&quot;,&quot;employee_name&quot;:&quot;Caesar Vance&quot;,&quot;employee_salary&quot;:106450,&quot;id&quot;:23,&quot;employee_age&quot;:21},{&quot;profile_image&quot;:&quot;&quot;,&quot;employee_name&quot;:&quot;Doris Wilder&quot;,&quot;employee_salary&quot;:85600,&quot;id&quot;:24,&quot;employee_age&quot;:23}],&quot;message&quot;:&quot;Successfully! All records has been fetched.&quot;,&quot;status&quot;:&quot;success&quot;}
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.32">
+      <div class="step-ref passed">32</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.33">
+      <div class="step-ref passed">33</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match each response.data ==</span>
+      </div>
+    </div>
+    <div class="time-cell passed">113</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="0.33">{
+  &quot;id&quot;: &quot;#number&quot;,
+  &quot;employee_name&quot;: &quot;#string&quot;,
+  &quot;employee_salary&quot;: &quot;#number&quot;,
+  &quot;employee_age&quot;: &quot;#number&quot;,
+  &quot;profile_image&quot;: &quot;##string&quot;
+  }</div>
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
